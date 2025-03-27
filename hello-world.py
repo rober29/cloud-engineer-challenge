@@ -8,7 +8,7 @@ html_content = """
 </head>
 <body>
     <h1>Hello, World!</h1>
-    <p>Cloud engineer Challenge</p>
+    <p>Cloud engineer Challenge - Test 1</p>
 </body>
 </html>
 """
