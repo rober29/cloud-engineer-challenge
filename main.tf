@@ -33,6 +33,9 @@ resource "aws_s3_object" "hello_world_file" {
   key          = var.file_key
   source       = "./hello_world.html"
   content_type = "text/html"
+
+  # Use source_hash to detect changes in the file
+  source_hash = filebase64sha256("./hello_world.html")
 }
 
 output "hello_world_url" {
