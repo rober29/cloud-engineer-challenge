@@ -4,9 +4,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = var.bucket_name
+    bucket         = "cloud-challenge123" 
     key            = "terraform/statefile.tfstate"
-    region         = var.region
+    region         = "us-west-1"        
     encrypt        = true
   }
 }
