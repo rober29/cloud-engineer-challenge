@@ -8,7 +8,7 @@ html_content = """
 </head>
 <body>
     <h1>Hello, World!</h1>
-    <p>Welcome to my AWS S3 hosted application!</p>
+    <p>Cloud engineer Challenge</p>
 </body>
 </html>
 """
